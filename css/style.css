@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+@font-face {
+    font-family: 'Confortaa';
+    src: url('Comfortaa-Regular.ttf');
+}
+
+#start{
+    font-family: 'Confortaa';
+    height:100%;
+    background-color: #CECECE;
+    background-image: url('../img/code-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+}
+#about{
+    background-color: #CECECE;
+}
+#skills{
+    background-color: #e0e0e0;
+}
+#projects{
+    height:100%;
+    background-color: #CECECE;
+}
+#contact{
+    height:310px;
+    background-color: #f3f3f3;
+    background-image: url('../img/contact-bg.jpg');
+    background-size:630px;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    background-image: url('../img/logo.png');
+    background-size: 77%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:200px;
+    height:64px;
+}
+
+.start-text{
+    position: absolute;
+    font-size:28px;
+    font-weight: 600;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* Arrow & Hover Animation */
+#more-arrows {
+    width: 75px;
+    height: 65px;
+  }
+  #more-arrows:hover polygon {
+    fill: #FFF;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+  }
+  #more-arrows:hover polygon.arrow-bottom {
+    -webkit-transform: translateY(-18px);
+            transform: translateY(-18px);
+  }
+  #more-arrows:hover polygon.arrow-top {
+    -webkit-transform: translateY(18px);
+            transform: translateY(18px);
+  }
+  
+  polygon {
+    fill: #FFF;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+  }
+  polygon.arrow-middle {
+    opacity: 0.75;
+  }
+  polygon.arrow-top {
+    opacity: 0.5;
+  }
+
+.next-btn{
+      position: absolute;
+      left: 50%;
+      bottom: 8px;
+      transform: translateX(-50%);
+  }
+
+
+.about-title{
+      font-family: 'Confortaa';
+      font-size: 32px;
+      font-weight: bold;
+  }
+
+#about > .container {
+    font-family: 'Confortaa';
+      font-size: 16px;
+  }
+
+  .skills-title{
+    font-family: 'Confortaa';
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#skills > .container {
+    font-family: 'Confortaa';
+    font-size: 16px;
+    color: #212121;
+}
+
+.skill-icon{
+    width:24px;
+    height:24px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float:left;
+    transform:translateY(5px);
+    margin-right: 4px;
+}
+.skill-icon.python{background-image:url('../img/python.svg')}
+.skill-icon.web{background-image:url('../img/web.svg')}
+.skill-icon.windows{background-image:url('../img/windows.svg')}
+.skill-icon.network{background-image:url('../img/network.svg')}
+
+.social-container{
+    position:relative;
+    margin-top:16px;
+    left:50%;
+    transform: translateX(-50%);
+    width:320px;
+}
+.social-btn{
+    width:72px;
+    height:72px;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float:left;
+    margin:0 4px 0 4px;
+    transition:0.3s;
+}
+.social-btn:hover{
+    background-size:100%;
+}
+.social-btn.mail{background-image: url('../img/mail.svg');background-size:90%;background-position:center 4px;transition:0.2s}
+.social-btn.mail:hover{background-size:105%;background-position: center;}
+.social-btn.github{background-image: url('../img/github.svg');}
+.social-btn.linkedin{background-image: url('../img/linkedin.svg');}
+.social-btn.instagram{background-image: url('../img/instagram.svg');}

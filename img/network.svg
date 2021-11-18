@@ -1,0 +1,8 @@
+<svg id="_103333_server_icon" data-name="103333_server_icon" xmlns="http://www.w3.org/2000/svg" width="343" height="343" viewBox="0 0 343 343">
+  <g id="background">
+    <rect id="Rectángulo_1" data-name="Rectángulo 1" width="343" height="343" fill="none"/>
+  </g>
+  <g id="server" transform="translate(21.418 21.418)">
+    <path id="Trazado_5" data-name="Trazado 5" d="M301.858,87.674V2H2V87.674H23.418v21.418H2v85.674H23.418v21.418H2v85.674H301.858V216.184H280.44V194.766h21.418V109.092H280.44V87.674ZM23.418,44.837H66.255V66.255H23.418Zm0,107.092H66.255v21.418H23.418ZM66.255,280.44H23.418V259.021H66.255Zm192.766-64.255H44.837V194.766H259.021Zm0-107.092H44.837V87.674H259.021Z" transform="translate(-2 -2)" fill="#212121"/>
+  </g>
+</svg>
