@@ -157,3 +157,51 @@ html {
 .social-btn.github{background-image: url('../img/github.svg');}
 .social-btn.linkedin{background-image: url('../img/linkedin.svg');}
 .social-btn.instagram{background-image: url('../img/instagram.svg');}
+
+#project{
+    background-color: #CECECE;
+}
+
+.mockup{
+    width:90%;
+    margin:0 auto 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:300px;
+}
+.mockup.ipx{
+    background-image: url('../projects/img/mockup-ipx.jpg');
+}
+
+ul.url-tree {
+    list-style-type: none;
+    margin: 8px 0 0 0;
+    padding: 0;
+  }
+ul.url-tree > li{
+    font-family: 'Comfortaa';
+    float: left;
+    height:32px;
+    width: auto;
+    padding:4px;
+    line-height: 32px;
+}
+.home-btn{
+    float: left;
+    background-image: url('../img/home.svg');
+    width:32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size:90%;
+    background-position: center;
+}
+.tree-arrow{
+    float: left;
+    background-image: url('../img/arrow_right.svg');
+    width:32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:30%;
+}
